@@ -1,3 +1,4 @@
+
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -29,3 +30,5 @@ swagger:
   #  exclude-path: ""
   license: "Apache License, Version 2.0"
   license-url: "https://www.apache.org/licenses/LICENSE-2.0.html"
+server:
+  port: 8081

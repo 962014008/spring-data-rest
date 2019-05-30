@@ -17,7 +17,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
  *
  * @author white
  */
-@RepositoryRestResource(collectionResourceRel = "user", path = "user")
+@RepositoryRestResource(path = "user")
 public interface UserRepository extends JpaRepository<User, Long> {
 
 }
