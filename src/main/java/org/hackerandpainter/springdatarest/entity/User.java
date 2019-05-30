@@ -1,5 +1,6 @@
 package org.hackerandpainter.springdatarest.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
@@ -23,6 +24,7 @@ public class User {
 
     private String name;
 
+    @JsonIgnore
     private String password;
 
     private int age;

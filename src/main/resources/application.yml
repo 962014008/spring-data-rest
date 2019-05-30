@@ -5,6 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/test
     username: root
     password: root
+  data:
+    rest:
+      base-path: /api
 
 
 # swagger配置
@@ -12,7 +15,7 @@ swagger:
   # 是否启用swagger，默认：true
   enabled: true
   # 标题
-  title: "Spring Boot 测试使用 Swagger2 构建RESTful API"
+  title: "Spring Data Rest 构建RESTful API"
   contact:
     # 维护人
     name: "yunlingfly"
@@ -30,5 +33,3 @@ swagger:
   #  exclude-path: ""
   license: "Apache License, Version 2.0"
   license-url: "https://www.apache.org/licenses/LICENSE-2.0.html"
-server:
-  port: 8081
