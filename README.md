@@ -63,7 +63,7 @@
 
 ## 注意点
 
-spring data jpa 默认是不暴露id的，需要加个配置类
+spring data rest 默认是不暴露id的，需要加个配置类
 
 ```java
 @Configuration
