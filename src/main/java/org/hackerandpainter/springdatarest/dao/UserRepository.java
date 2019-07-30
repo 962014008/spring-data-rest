@@ -22,7 +22,8 @@ import java.util.List;
  *
  * @author white
  */
-@RepositoryRestResource(path="user",excerptProjection= ListUser.class)
+@RepositoryRestResource(path="user",excerptProjection= User.class)
+//@RepositoryRestResource(path="user",excerptProjection= ListUser.class)
 public interface UserRepository extends JpaRepository<User, Long> {
 
     @RestResource(exported = false)

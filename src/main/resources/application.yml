@@ -5,10 +5,9 @@ spring:
     url: jdbc:mysql://localhost:3306/test
     username: root
     password: root
-  data:
-    rest:
-      base-path: /api
-
+#  data:
+#    rest:
+#      base-path: /api
 
 # swagger配置
 swagger:
